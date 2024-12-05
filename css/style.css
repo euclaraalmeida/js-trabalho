@@ -1,0 +1,32 @@
+.flag{
+  display: grid; 
+  grid-template-columns: repeat(6, 1fr); 
+  gap: 12px; 
+  margin: 20px auto; 
+  max-width: 1200px; /
+}
+
+.flag-card {
+  text-align: center;
+  width: 100%; 
+}
+
+.img {
+  width: 50px; 
+  height: 50px; 
+}
+
+.flag-name {
+  margin-top: 8px; 
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold; 
+  color: #333; 
+  font-family: Arial, sans-serif;
+}
+
+h1{
+  text-align: center;
+  
+  font-family: Arial, sans-serif;
+}
