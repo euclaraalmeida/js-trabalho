@@ -1,0 +1,80 @@
+body {
+  background-color: #2c3e50;
+  font-family: 'Arial', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+main {
+  background-color: #2c3e50;
+  padding: 40px;
+  border-radius: 10px;
+  
+  width: 80%;
+  max-width: 600px;
+  color: white;
+}
+
+h2 {
+  color: #ecf0f1;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+main form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main form input[type=text],
+main form #cepError {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+main form input {
+  padding: 12px;
+  border: 2px solid #3498db;
+  border-radius: 8px;
+  background-color: #34495e;
+  color: white;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+main form input:focus {
+  border-color: #1abc9c;
+}
+
+main form input:invalid {
+  border-color: #e74c3c;
+}
+
+.hidden {
+  display: none;
+}
+
+main form #cepError {
+  color: #e74c3c;
+  font-size: 14px;
+  margin-top: -10px;
+}
+
+.input-cep-error {
+  border: 2px solid #e74c3c;
+  background-color: rgba(231, 76, 60, 0.1);
+}
+
+#cepError {
+  text-align: center;
+  font-size: 14px;
+}
+
+
+
